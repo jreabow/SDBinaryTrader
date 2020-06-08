@@ -1,0 +1,37 @@
+﻿@model BinaryTrade.Models.Trade[]
+@{
+  ViewBag.Title = "Binary Trades";
+}
+
+<h2>Trade Binary Options</h2>
+<br/>
+  @Html.ActionLink("Buy", "Buy")
+<br/>
+
+@foreach (var trade in Model)
+{
+  <h3>Trade</h3>
+  <table>
+    <tr>
+      <td> Asset: </td>
+      <td>@trade.Asset.Name</td>
+    </tr>
+    <tr>
+      <td> Expiration: </td>
+      <td>@trade.Expiration</td>
+    </tr>
+    <tr>
+      <td> Trade amount: </td>
+      <td> @trade.Amount </td>
+    </tr>
+    <tr>
+      <td> Direction: </td>
+      <td>@trade.Direction</td>
+    </tr>
+    <tr>
+      <td> Payout: </td>
+      <td>@trade.Payout</td>
+    </tr>
+  </table>
+}
+  

@@ -1,0 +1,45 @@
+﻿@model BinaryTrade.Models.Trade
+@{
+  ViewBag.Title = "Buy Trade";
+}
+
+<h2>Trade Binary Options</h2>
+<hr />
+@using (Html.BeginForm("Buy", "Trade"))
+{
+  <table>
+    <tr>
+      <td> Asset: </td>
+      <td>
+        @Html.DropDownListFor(model => model.Asset, new SelectList(ViewBag.Assets, "Value", "Text"))
+      </td>
+    </tr>
+    <tr>
+      <td> Expiration: </td>
+      <td>
+        @Html.DropDownListFor(model => model.Expiration, new SelectList(ViewBag.Expiry, "Value", "Text"))
+      </td>
+    </tr>
+    <tr>
+      <td> Trade amount: </td>
+      <td> @Html.TextBoxFor(model => model.Amount,"TradeAmount") </td>
+    </tr>
+    <tr>
+      <td> Direction: </td>
+      <td>
+        @Html.DropDownListFor(model => model.Direction, new SelectList(ViewBag.Direction,"Value", "Text" ))
+      </td>
+    </tr>
+    <tr>
+      <td> Payout: </td>
+      <td>
+        @ViewBag.Payout.ToString()
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <button class="button">Buy Now</button>
+      </td>
+    </tr>
+  </table>
+}

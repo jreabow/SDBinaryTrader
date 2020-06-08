@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="b0f8e8f7-7b71-4b81-bb02-0d8c2fff02d2" ChangeDateTime="09/12/2018 08:25:04">
+    <Property Name="ElementName" Value="[dbo].[Trade].[AvailableAssets]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Trade]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Expiration" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c8061e4e-6684-4ded-9ea6-f71d5fb7ecbc" ChangeDateTime="09/12/2018 08:25:28">
+    <Property Name="ElementName" Value="[dbo].[Trade].[E]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Trade]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Amount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="31fd2325-222a-4cd5-9414-dbe9d1376515" ChangeDateTime="09/12/2018 12:41:20">
+    <Property Name="ElementName" Value="[dbo].[Trade].[SelectedAsset]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Trade]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Asset" />
+  </Operation>
+</Operations>

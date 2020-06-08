@@ -1,0 +1,43 @@
+﻿@model BinaryTrade.Models.Trade
+@{
+  ViewBag.Title = "Trade Success";
+}
+<h2>Trade Binary Options</h2>
+<hr />
+
+<table>
+  <tr>
+    <td> Asset: </td>
+    <td>
+      @Model.Asset
+    </td>
+  </tr>
+  <tr>
+    <td> Expiration: </td>
+    <td>
+      @Model.Expiration
+    </td>
+  </tr>
+  <tr>
+    <td> Trade amount: </td>
+    <td> @Model.Amount</td>
+  </tr>
+  <tr>
+    <td> Direction: </td>
+    <td>
+      @Model.Direction
+    </td>
+  </tr>
+  <tr>
+    <td> Payout: </td>
+    <td>
+      @Model.Payout
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      @Html.ActionLink("Buy some more", "Index");
+    </td>
+  </tr>
+</table>
+

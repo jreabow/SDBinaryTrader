@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTrade", "BinaryTrade\BinaryTrade.csproj", "{4BF9DAC2-1F2E-4D81-816E-CE60F685CB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTrade.Tests", "BinaryTrade.API.Tests\BinaryTrade.Tests.csproj", "{AE06A9E6-3C9C-4F54-9C86-AC82BA9A253B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BinaryTradeDB", "BinaryTradeDB\BinaryTradeDB.sqlproj", "{F92A6E5A-7B25-41EA-B087-356B789F4DB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTrade.Core.API", "BinaryTrade.Core.API\BinaryTrade.Core.API.csproj", "{BC5F70C1-2DBE-4E65-96B4-6E7C759A9161}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{68F01D13-B459-45C6-AD10-772310A4B1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTrade.Core.API.Tests", "BinaryTrade.Core.API.Tests\BinaryTrade.Core.API.Tests.csproj", "{2CD95A3F-1193-4DB7-8F51-8F580F5CDFBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF9DAC2-1F2E-4D81-816E-CE60F685CB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF9DAC2-1F2E-4D81-816E-CE60F685CB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF9DAC2-1F2E-4D81-816E-CE60F685CB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF9DAC2-1F2E-4D81-816E-CE60F685CB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE06A9E6-3C9C-4F54-9C86-AC82BA9A253B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE06A9E6-3C9C-4F54-9C86-AC82BA9A253B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE06A9E6-3C9C-4F54-9C86-AC82BA9A253B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE06A9E6-3C9C-4F54-9C86-AC82BA9A253B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92A6E5A-7B25-41EA-B087-356B789F4DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92A6E5A-7B25-41EA-B087-356B789F4DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92A6E5A-7B25-41EA-B087-356B789F4DB5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F92A6E5A-7B25-41EA-B087-356B789F4DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92A6E5A-7B25-41EA-B087-356B789F4DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92A6E5A-7B25-41EA-B087-356B789F4DB5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BC5F70C1-2DBE-4E65-96B4-6E7C759A9161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5F70C1-2DBE-4E65-96B4-6E7C759A9161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5F70C1-2DBE-4E65-96B4-6E7C759A9161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5F70C1-2DBE-4E65-96B4-6E7C759A9161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F01D13-B459-45C6-AD10-772310A4B1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F01D13-B459-45C6-AD10-772310A4B1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F01D13-B459-45C6-AD10-772310A4B1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F01D13-B459-45C6-AD10-772310A4B1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD95A3F-1193-4DB7-8F51-8F580F5CDFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD95A3F-1193-4DB7-8F51-8F580F5CDFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD95A3F-1193-4DB7-8F51-8F580F5CDFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD95A3F-1193-4DB7-8F51-8F580F5CDFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B798969-71CE-4FCD-8712-F5B5DFB2DCA7}
+	EndGlobalSection
+EndGlobal
