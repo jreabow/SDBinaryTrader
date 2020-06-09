@@ -17,4 +17,4 @@
 - Improve the quality of the code
 - Implement a stock trader feature
 - You have 1 hour. You are likely not to complete your changes so added a txt file to the root of the repo called proposedChanges.txt
-and bullet point what changes you would make that didnt get round to doing.
+and bullet point what changes you would make that you didn't get round to doing.
