@@ -8,7 +8,8 @@
 - Visual Studio (Free community edition available) & SQL Server Express (FREE) or another Edition is installed.
 - Create an empty "BinaryTradeDB" in SQLExpress or LocalDB.
 - Run the following 3 scripts: Asset.sql, Trade.sql, Script.PostDeployment.sql
-- Open the solution in VisualStudio and modify the database connection string if using SQL Express under    DataAccessBinaryTradeRepository.csRun the Application.
+- Open the solution in VisualStudio and modify the database connection string if using SQL Express under    DataAccessBinaryTradeRepository.cs
+-Run the Application.
 
 # Instructions
 
